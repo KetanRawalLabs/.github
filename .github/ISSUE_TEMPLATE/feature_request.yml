@@ -1,0 +1,31 @@
+name: Feature request
+description: Propose a focused improvement
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: Describe the user need and keep the proposal focused on one improvement.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or opportunity
+      description: What user need, limitation, or workflow would this address?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: Explain the behavior you would like to see.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: What other approaches have you considered?
+  - type: textarea
+    id: impact
+    attributes:
+      label: Scope and impact
+      description: Who benefits, and are there compatibility, privacy, or security considerations?
